@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;/* Full viewport height for vertical centering */
+
+}
+/* container for weather app */
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+form{
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 4px;
+    width: 100%;
+    color: #fff;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #0056b3;;
+}
+/* Weather information display */
+.weather-info{
+    margin-top: 20px;
+}
+/* Error message styling */
+.error{
+    color: red;
+    margin-top: 20px;
+}
